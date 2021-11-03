@@ -1,0 +1,23 @@
+Package: multatt
+Type: Package
+Title: IRT Models for Multiple Attempt Data
+Version: 0.1
+Date: 2016-01-27
+Authors@R: as.person(c(
+    "Yoav Bergner <ybergner@ets.org> [aut, cre]",
+    "Katherine Castellano [aut]",
+    "Ikkyu Choi [aut]",
+    "Igor Himmelfarb [aut]"
+  ))
+Maintainer: Yoav Bergner <ybergner@ets.org>
+Description: Data from cognitive or psychomotor assessments may be of a
+    polytomous nature reflecting multiple attempts made at each item. There are
+    several approaches to modeling such data using sequential or polytmous item
+    response theory (IRT) models. Several of those are included in this package
+    along with data manipulation and transformation functions.
+Imports:
+    mirt,
+    PerFit
+License: GPL-3
+LazyData: TRUE
+RoxygenNote: 5.0.1
